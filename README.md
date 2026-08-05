@@ -34,12 +34,23 @@ A two-sided workflow where drivers research vehicle problems and repair shops ve
 - NHTSA VIN decoding, quoting, shop administration and customer notifications
 - [Live demo](https://repairscout-smoky.vercel.app)
 
+### PhysicalKey — BLE hardware security platform
+
+An ESP32-based key fob paired to a native iOS app over Bluetooth, with a backend that enforces per-device cryptographic trust.
+
+- ESP-IDF (NimBLE) firmware, Swift/iOS companion app, Node.js backend
+- BLE Secure Connections pairing, per-device Ed25519 signing, flash + NVS encryption on the device
+- Verified end-to-end on physical hardware: real phone-to-device pairing, GATT read/write, and independently-verified cryptographic signatures
+
+_Private — hardware, firmware, and mobile repository._
+
 ### Additional shipped products
 
 - [SpendSense](https://spendsense-seven.vercel.app) — financial intelligence and spend anomaly detection for founders
 - [TruckTracker](https://trucktracker-eight.vercel.app) — live food-truck discovery, maps, community posts and reviews
 - [PoopSense](https://web-production-fb2d1.up.railway.app) — safety-bounded visual pet-health information and veterinary care finder
 - [White-label AI Sales Platform](https://salesplatform-frontend.vercel.app) — configurable CRM, calling, onboarding and billing workflows
+- [The Pass](https://purple-beach-0c1e8a510.7.azurestaticapps.net) — multi-model AI "kitchen brigade" (Groq, OpenAI, Anthropic in sequence) that turns available ingredients into reviewed recipes
 - Different Friends Pipeline — bilingual media-production workflow with distributed workers and human review gates
 
 ## Core stack
@@ -48,6 +59,7 @@ A two-sided workflow where drivers research vehicle problems and repair shops ve
 **Backend:** Node.js, Express, Python, FastAPI, Flask  
 **Data:** PostgreSQL, Supabase, Neon, Qdrant, Redis  
 **Applied AI:** Ollama, model APIs, vision, voice, agents, retrieval and tool execution  
+**Embedded/Hardware:** ESP-IDF, BLE (NimBLE), C/C++, Swift/iOS  
 **Integrations:** Twilio, Telnyx, Stripe, Clerk, Resend, Google APIs, NHTSA  
 **Operations:** Docker, Railway, Vercel, Tailscale, Linux, CI workflows, self-hosted infrastructure
 
