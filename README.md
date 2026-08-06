@@ -42,7 +42,7 @@ An ESP32-based key fob paired to a native iOS app over Bluetooth, with a backend
 - BLE Secure Connections pairing, per-device Ed25519 signing, flash + NVS encryption on the device
 - Verified end-to-end on physical hardware: real phone-to-device pairing, GATT read/write, and independently-verified cryptographic signatures
 
-_Private — hardware, firmware, and mobile repository._
+[Public repository](https://github.com/humbertowgw-maker/physicalkey-core) · [Product site](https://physicalkey.whitegwireless.com)
 
 ### Additional shipped products
 
@@ -50,7 +50,7 @@ _Private — hardware, firmware, and mobile repository._
 - [TruckTracker](https://trucktracker-eight.vercel.app) — live food-truck discovery, maps, community posts and reviews
 - [PoopSense](https://web-production-fb2d1.up.railway.app) — safety-bounded visual pet-health information and veterinary care finder
 - [White-label AI Sales Platform](https://salesplatform-frontend.vercel.app) — configurable CRM, calling, onboarding and billing workflows
-- [The Pass](https://purple-beach-0c1e8a510.7.azurestaticapps.net) — multi-model AI "kitchen brigade" (Groq, OpenAI, Anthropic in sequence) that turns available ingredients into reviewed recipes
+- [The Pass](https://purple-beach-0c1e8a510.7.azurestaticapps.net) — multi-model AI kitchen brigade where Groq proposes dishes and OpenAI plus Anthropic review them in parallel
 - Different Friends Pipeline — bilingual media-production workflow with distributed workers and human review gates
 
 ## Core stack
