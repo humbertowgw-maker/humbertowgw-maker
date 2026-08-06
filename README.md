@@ -49,7 +49,7 @@ An ESP32-based key fob paired to a native iOS app over Bluetooth, with a backend
 - [SpendSense](https://spendsense-seven.vercel.app) — financial intelligence and spend anomaly detection for founders
 - [TruckTracker](https://trucktracker-eight.vercel.app) — live food-truck discovery, maps, community posts and reviews
 - [PoopSense](https://web-production-fb2d1.up.railway.app) — safety-bounded visual pet-health information and veterinary care finder
-- [White-label AI Sales Platform](https://salesplatform-frontend.vercel.app) — configurable CRM, calling, onboarding and billing workflows
+- [White-label AI Sales Platform](https://salesplatform-frontend.vercel.app) — active-development preview, approximately halfway built, for configurable CRM, calling, onboarding and billing workflows
 - [The Pass](https://purple-beach-0c1e8a510.7.azurestaticapps.net) — multi-model AI kitchen brigade where Groq proposes dishes and OpenAI plus Anthropic review them in parallel
 - Different Friends Pipeline — bilingual media-production workflow with distributed workers and human review gates
 
