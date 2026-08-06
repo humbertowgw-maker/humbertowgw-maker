@@ -4,6 +4,8 @@
 
 I build AI-enabled products from the first workflow sketch through the API, database, user interface, deployment, and operational handoff. My work focuses on practical systems: sales operations, telecommunications, financial intelligence, automotive repair, location-based communities, content production, and private AI infrastructure.
 
+> **Portfolio status:** The public projects below are first or early public versions. They demonstrate implemented work, but they remain in active development and should not be interpreted as finished products.
+
 ## Featured work
 
 ### White Glove Wireless — AI sales operations platform
@@ -44,7 +46,7 @@ An ESP32-based key fob paired to a native iOS app over Bluetooth, with a backend
 
 [Public repository](https://github.com/humbertowgw-maker/physicalkey-core) · [Product site](https://physicalkey.whitegwireless.com)
 
-### Additional shipped products
+### Additional first-version projects
 
 - [SpendSense](https://spendsense-seven.vercel.app) — financial intelligence and spend anomaly detection for founders
 - [TruckTracker](https://trucktracker-eight.vercel.app) — live food-truck discovery, maps, community posts and reviews
