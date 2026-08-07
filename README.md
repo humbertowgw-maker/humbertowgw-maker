@@ -63,7 +63,7 @@ An ESP32-based key fob paired to a native iOS app over Bluetooth, with a backend
 - Scheduled backups, health checks, and a documented self-host path
 - Verified end to end on physical hardware: real phone-to-device pairing, GATT read/write, independently-verified cryptographic signatures
 
-**[Public repository](https://github.com/humbertowgw-maker/physicalkey-core) · [Product site](https://physicalkey.whitegwireless.com)**
+**[Public repository](https://github.com/humbertowgw-maker/physicalkey-core) · [Product site](https://physicalkey.whitegwireless.com) · [Case study →](case-studies/physicalkey.md)**
 
 </td>
 <td width="45%">
