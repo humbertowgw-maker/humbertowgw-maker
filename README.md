@@ -4,6 +4,10 @@
 
 I build AI-enabled products from the first workflow sketch through the API, database, user interface, deployment, and operational handoff — solo, end to end, across whatever domain the problem lives in. That's ranged from sales operations and telecommunications to automotive repair, personal finance, pet health, and hardware security, because the skill I lean on most isn't a specific stack, it's figuring out how a real workflow actually works and then building the thing that fits it.
 
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![Swift](https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white) ![ESP32](https://img.shields.io/badge/ESP--IDF%2FBLE-E7352C?style=flat-square&logo=espressif&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Stripe](https://img.shields.io/badge/Stripe-635BFF?style=flat-square&logo=stripe&logoColor=white)
+
+**[Featured work](#featured-work)** · **[More shipped work](#more-shipped-work)** · **[Core stack](#core-stack)** · **[How I work](#how-i-work)** · **[Let's talk](#lets-talk)**
+
 ## Highlights
 
 - **A problem-solver first.** The projects below span sales ops, automotive, personal finance, pet health, hardware security, local discovery, and media production — different domains each time, same approach: learn the real workflow, then build for it.
@@ -15,63 +19,163 @@ I build AI-enabled products from the first workflow sketch through the API, data
 
 ## Featured work
 
-### White Glove Wireless — AI sales operations platform
+<table>
+<tr>
+<td width="55%" valign="top">
+
+### 🛰️ White Glove Wireless
+**AI sales operations platform**
 
 A production-oriented platform for lead management, territory operations, AI-assisted calling, messaging, onboarding, analytics, billing, and role-based workflows.
 
-- React, Node.js, Express, PostgreSQL, Supabase
-- Twilio, Telnyx, Stripe, AI voice and messaging providers
-- Multi-tenant authorization, operational dashboards, assignment workflows, audit and compliance controls
-- [Live product](https://white-glove-frontend.vercel.app) · [Product site](https://whitegwireless.com)
+`React` `Node.js` `Express` `PostgreSQL` `Supabase` `Twilio` `Telnyx` `Stripe`
 
-_The primary application repositories are private because they contain proprietary product implementation._
+- Multi-tenant authorization, operational dashboards, assignment workflows
+- Audit and compliance controls across the whole workflow
+- Live product · no login required to see the landing
 
-### Personal BrainOS — private local-first AI operating system
+**[Live product](https://white-glove-frontend.vercel.app) · [Product site](https://whitegwireless.com)**
 
-A personalized Jarvis-style system with local inference, durable memory, bounded specialist agents, telecommunications, infrastructure awareness, reminders, self-coding worktrees, and owner approval gates.
+_The primary application repositories are private — proprietary product implementation._
 
-- Python, FastAPI, React, Docker Compose
-- PostgreSQL, Qdrant, Ollama and Tailscale
-- Local CLI, agent workflows, audit receipts and isolated code-generation branches
-- Connected to a self-hosted multi-node homelab
+</td>
+<td width="45%">
 
-### RepairScout — AI-assisted automotive repair platform
+<img src="screenshots/white-glove.png" width="100%" alt="White Glove Wireless landing page — wireless, fiber, and AI automation solutions" />
+
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td width="55%" valign="top">
+
+### 🔑 PhysicalKey
+**BLE hardware security platform**
+
+An ESP32-based key fob paired to a native iOS app over Bluetooth, with a backend that enforces per-device cryptographic trust — phone, biometric, and physical key as three independent proofs, not one copyable secret.
+
+`ESP-IDF/NimBLE` `Swift/iOS` `Node.js` `Stripe`
+
+- Per-unit passkey BLE pairing (not Just Works), Ed25519 device signing, flash + NVS encryption
+- Phone identity is Secure-Enclave-resident P-256
+- Scheduled backups, health checks, and a documented self-host path
+- Verified end to end on physical hardware: real phone-to-device pairing, GATT read/write, independently-verified cryptographic signatures
+
+**[Public repository](https://github.com/humbertowgw-maker/physicalkey-core) · [Product site](https://physicalkey.whitegwireless.com)**
+
+</td>
+<td width="45%">
+
+<img src="screenshots/physicalkey.png" width="100%" alt="PhysicalKey landing page — authentication that actually works" />
+
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td width="55%" valign="top">
+
+### 🔧 RepairScout
+**AI-assisted automotive repair platform**
 
 A two-sided workflow where drivers research vehicle problems and repair shops verify diagnoses, create estimates, communicate with customers, and manage repair stages.
 
-- React, Express, PostgreSQL and structured AI workflows
-- NHTSA VIN decoding, quoting, shop administration and customer notifications
-- [Live demo](https://repairscout-smoky.vercel.app)
+`React` `Express` `PostgreSQL` `NHTSA API`
 
-### PhysicalKey — BLE hardware security platform
+- AI diagnosis with real local part pricing before a driver spends a cent
+- Shop-side quoting, job management, and customer messaging
+- Bilingual interface (English/Spanish)
 
-An ESP32-based key fob paired to a native iOS app over Bluetooth, with a backend that enforces per-device cryptographic trust.
+**[Live demo](https://repairscout-smoky.vercel.app) · [Public repository](https://github.com/humbertowgw-maker/repairscout)**
 
-- ESP-IDF (NimBLE) firmware, Swift/iOS companion app, Node.js backend
-- BLE Secure Connections with per-unit passkey pairing (not Just Works), per-device Ed25519 signing, flash + NVS encryption on the device
-- Phone identity is Secure-Enclave-resident P-256, with the backend independently verifying both curves so already-paired phones keep working through the migration
-- Stripe-backed subscriptions, scheduled database backups, and a documented self-host path — not just a proof of concept
-- Verified end-to-end on physical hardware: real phone-to-device pairing, GATT read/write, and independently-verified cryptographic signatures
+</td>
+<td width="45%">
 
-[Public repository](https://github.com/humbertowgw-maker/physicalkey-core) · [Product site](https://physicalkey.whitegwireless.com)
+<img src="screenshots/repairscout.png" width="100%" alt="RepairScout landing page — know your car, trust your shop" />
 
-### Additional first-version projects
+</td>
+</tr>
+</table>
 
-- [SpendSense](https://spendsense-seven.vercel.app) — financial intelligence and spend anomaly detection for founders
-- [TruckTracker](https://trucktracker-eight.vercel.app) — live food-truck discovery, maps, community posts and reviews
-- [PoopSense](https://web-production-fb2d1.up.railway.app) — safety-bounded visual pet-health information and veterinary care finder
-- [White-label AI Sales Platform](https://salesplatform-frontend.vercel.app) — active-development preview, approximately halfway built, for configurable CRM, calling, onboarding and billing workflows
-- [The Pass](https://purple-beach-0c1e8a510.7.azurestaticapps.net) — multi-model AI kitchen brigade where Groq proposes dishes and OpenAI plus Anthropic review them in parallel
-- Different Friends Pipeline — bilingual media-production workflow with distributed workers and human review gates
+<table>
+<tr>
+<td width="100%" valign="top">
+
+### 🧠 Personal BrainOS
+**Private local-first AI operating system**
+
+A personalized Jarvis-style system with local inference, durable memory, bounded specialist agents, telecommunications, infrastructure awareness, reminders, self-coding worktrees, and owner approval gates — running on a self-hosted, multi-node homelab rather than a public cloud.
+
+`Python` `FastAPI` `React` `Docker Compose` `PostgreSQL` `Qdrant` `Ollama` `Tailscale`
+
+_Private and self-hosted by design — no public demo, which is the point: it's infrastructure I run, not a product I ship._
+
+</td>
+</tr>
+</table>
+
+## More shipped work
+
+<table>
+<tr>
+<td width="33%" valign="top">
+<img src="screenshots/spendsense.png" width="100%" alt="SpendSense — founder spend intelligence dashboard" /><br/>
+<b>SpendSense</b><br/>
+Runway, burn, and unit-economics benchmarking for founders, live against 6 industries.<br/>
+<sub>React · Stripe-style metrics UI</sub><br/>
+<a href="https://spendsense-seven.vercel.app">Live demo →</a>
+</td>
+<td width="33%" valign="top">
+<img src="screenshots/trucktracker.png" width="100%" alt="TruckTracker — live food truck discovery map" /><br/>
+<b>TruckTracker</b><br/>
+Live food-truck discovery: real-time GPS, verified visits, community ratings, no paid rankings.<br/>
+<sub>React · maps · real-time data</sub><br/>
+<a href="https://trucktracker-eight.vercel.app">Live demo →</a>
+</td>
+<td width="33%" valign="top">
+<img src="screenshots/poopsense.png" width="100%" alt="PoopSense — AI-assisted pet stool screening" /><br/>
+<b>PoopSense</b><br/>
+Safety-bounded AI visual screening for pet stool health, with explicit vet-escalation guidance built in.<br/>
+<sub>AI vision · safety-first UX</sub><br/>
+<a href="https://web-production-fb2d1.up.railway.app">Live demo →</a>
+</td>
+</tr>
+<tr>
+<td width="33%" valign="top">
+<img src="screenshots/salesplatform.png" width="100%" alt="White-label AI sales CRM platform" /><br/>
+<b>White-label AI Sales Platform</b><br/>
+Configurable CRM with AI calling, SMS inbox, lead scoring, and market intelligence — white-labeled per client.<br/>
+<sub>Active-development preview, roughly halfway built</sub><br/>
+<a href="https://salesplatform-frontend.vercel.app">Live preview →</a>
+</td>
+<td width="33%" valign="top">
+<img src="screenshots/thepass.png" width="100%" alt="The Pass — multi-model AI kitchen brigade" /><br/>
+<b>The Pass</b><br/>
+Multi-model AI "kitchen brigade": Groq proposes dishes from what's on hand, OpenAI and Anthropic review them in parallel.<br/>
+<sub>Multi-provider AI orchestration</sub><br/>
+<a href="https://purple-beach-0c1e8a510.7.azurestaticapps.net">Live demo →</a>
+</td>
+<td width="33%" valign="top">
+<br/>
+<b>Different Friends Pipeline</b><br/>
+Bilingual media-production workflow with distributed workers and human review gates.<br/>
+<sub>Distributed workers · review gates</sub><br/>
+<sub><i>Private repository, no public demo</i></sub>
+</td>
+</tr>
+</table>
 
 ## Core stack
 
-**Frontend:** React, Next.js, Vite, responsive product interfaces  
-**Backend:** Node.js, Express, Python, FastAPI, Flask  
-**Data:** PostgreSQL, Supabase, Neon, Qdrant, Redis  
-**Applied AI:** Ollama, model APIs, vision, voice, agents, retrieval and tool execution  
-**Embedded/Hardware:** ESP-IDF, BLE (NimBLE), C/C++, Swift/iOS  
-**Integrations:** Twilio, Telnyx, Stripe, Clerk, Resend, Google APIs, NHTSA  
+**Frontend:** React, Next.js, Vite, responsive product interfaces
+**Backend:** Node.js, Express, Python, FastAPI, Flask
+**Data:** PostgreSQL, Supabase, Neon, Qdrant, Redis
+**Applied AI:** Ollama, model APIs, vision, voice, agents, retrieval and tool execution
+**Embedded/Hardware:** ESP-IDF, BLE (NimBLE), C/C++, Swift/iOS
+**Integrations:** Twilio, Telnyx, Stripe, Clerk, Resend, Google APIs, NHTSA
 **Operations:** Docker, Railway, Vercel, Tailscale, Linux, CI workflows, self-hosted infrastructure
 
 ## How I work
@@ -82,6 +186,8 @@ An ESP32-based key fob paired to a native iOS app over Bluetooth, with a backend
 - Validate with real builds, live endpoints and user-visible receipts.
 - Use AI-assisted development while retaining responsibility for architecture, verification and production behavior.
 
-## Roles I am interested in
+## Let's talk
 
-Forward Deployed AI Engineer · AI Product Engineer · Full-Stack AI Engineer · AI Solutions Engineer · Technical Solutions Engineer
+**Roles I'm interested in:** Forward Deployed AI Engineer · AI Product Engineer · Full-Stack AI Engineer · AI Solutions Engineer · Technical Solutions Engineer
+
+**[whitegwireless.com](https://whitegwireless.com)** · open to conversations — see any live product above for a working example of how I build.
