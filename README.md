@@ -41,7 +41,9 @@ A two-sided workflow where drivers research vehicle problems and repair shops ve
 An ESP32-based key fob paired to a native iOS app over Bluetooth, with a backend that enforces per-device cryptographic trust.
 
 - ESP-IDF (NimBLE) firmware, Swift/iOS companion app, Node.js backend
-- BLE Secure Connections pairing, per-device Ed25519 signing, flash + NVS encryption on the device
+- BLE Secure Connections with per-unit passkey pairing (not Just Works), per-device Ed25519 signing, flash + NVS encryption on the device
+- Phone identity is Secure-Enclave-resident P-256, with the backend independently verifying both curves so already-paired phones keep working through the migration
+- Stripe-backed subscriptions, scheduled database backups, and a documented self-host path — not just a proof of concept
 - Verified end-to-end on physical hardware: real phone-to-device pairing, GATT read/write, and independently-verified cryptographic signatures
 
 [Public repository](https://github.com/humbertowgw-maker/physicalkey-core) · [Product site](https://physicalkey.whitegwireless.com)
