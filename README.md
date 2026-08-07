@@ -2,7 +2,14 @@
 
 ### Full-Stack AI Product Engineer
 
-I build AI-enabled products from the first workflow sketch through the API, database, user interface, deployment, and operational handoff. My work focuses on practical systems: sales operations, telecommunications, financial intelligence, automotive repair, location-based communities, content production, and private AI infrastructure.
+I build AI-enabled products from the first workflow sketch through the API, database, user interface, deployment, and operational handoff — solo, end to end, across whatever domain the problem lives in. That's ranged from sales operations and telecommunications to automotive repair, personal finance, pet health, and hardware security, because the skill I lean on most isn't a specific stack, it's figuring out how a real workflow actually works and then building the thing that fits it.
+
+## Highlights
+
+- **A problem-solver first.** The projects below span sales ops, automotive, personal finance, pet health, hardware security, local discovery, and media production — different domains each time, same approach: learn the real workflow, then build for it.
+- **Full ownership, not just a slice.** Every project here was built end to end by one person — firmware, backend, database, UI, deployment, and the operational plumbing (backups, audit logs, self-host paths) that most portfolios skip because it doesn't demo well.
+- **Integrity over polish.** Projects are labeled by their actual development stage below, not their best possible pitch — see the portfolio status note. I'd rather a recruiter know exactly what's finished and what isn't than oversell either way.
+- **Hard work compounds.** Shipping across this many domains, this deep into each stack, isn't a shortcut — it's a lot of hours spent actually finishing things, including the unglamorous parts.
 
 > **Portfolio status:** The public projects below are first or early public versions. They demonstrate implemented work, but they remain in active development and should not be interpreted as finished products.
 
