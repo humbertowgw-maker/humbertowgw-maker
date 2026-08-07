@@ -2,6 +2,8 @@
 
 ### Full-Stack AI Product Engineer
 
+**I take AI products from a blank workflow to a live system running end to end — solo, across firmware, backend, and UI.**
+
 I build AI-enabled products from the first workflow sketch through the API, database, user interface, deployment, and operational handoff — solo, end to end, across whatever domain the problem lives in. That's ranged from sales operations and telecommunications to automotive repair, personal finance, pet health, and hardware security, because the skill I lean on most isn't a specific stack, it's figuring out how a real workflow actually works and then building the thing that fits it.
 
 ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![Swift](https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white) ![ESP32](https://img.shields.io/badge/ESP--IDF%2FBLE-E7352C?style=flat-square&logo=espressif&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Stripe](https://img.shields.io/badge/Stripe-635BFF?style=flat-square&logo=stripe&logoColor=white)
@@ -166,6 +168,15 @@ Bilingual media-production workflow with distributed workers and human review ga
 <sub><i>Private repository, no public demo</i></sub>
 </td>
 </tr>
+<tr>
+<td width="33%" valign="top">
+<br/>
+<b>friendlyfriends</b><br/>
+An AI-provider cost/routing dashboard bolted onto a from-scratch animated-episode pipeline for a real cast of pets — built on a zero-paid-API-key constraint (free image gen, free TTS, FFmpeg).<br/>
+<sub>Node.js · React · SQLite (WASM) · free-tier media pipeline</sub><br/>
+<a href="https://github.com/humbertowgw-maker/friendlyfriends">Public repository →</a>
+</td>
+</tr>
 </table>
 
 ## Core stack
@@ -188,6 +199,6 @@ Bilingual media-production workflow with distributed workers and human review ga
 
 ## Let's talk
 
-**Roles I'm interested in:** Forward Deployed AI Engineer · AI Product Engineer · Full-Stack AI Engineer · AI Solutions Engineer · Technical Solutions Engineer
+**Roles I'm interested in:** AI Product Engineer · Forward Deployed AI Engineer — also open to Full-Stack AI Engineer, AI Solutions Engineer, and Technical Solutions Engineer roles.
 
 **[whitegwireless.com](https://whitegwireless.com)** · open to conversations — see any live product above for a working example of how I build.
