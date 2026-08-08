@@ -174,7 +174,7 @@ Bilingual media-production workflow with distributed workers and human review ga
 <b>friendlyfriends</b><br/>
 An AI-provider cost/routing dashboard bolted onto a from-scratch animated-episode pipeline for a real cast of pets — built on a zero-paid-API-key constraint (free image gen, free TTS, FFmpeg).<br/>
 <sub>Node.js · React · SQLite (WASM) · free-tier media pipeline</sub><br/>
-<a href="https://github.com/humbertowgw-maker/friendlyfriends">Public repository</a> · <a href="case-studies/friendlyfriends.md">Case study →</a>
+<a href="https://github.com/humbertowgw-maker/friendlyfriends">Public repository</a> · <a href="case-studies/friendlyfriends.md">Case study</a> · <a href="case-studies/friendlyfriends-architecture.md">Architecture →</a>
 </td>
 </tr>
 </table>

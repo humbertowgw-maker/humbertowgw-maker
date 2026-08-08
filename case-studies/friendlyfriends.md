@@ -1,6 +1,6 @@
 # friendlyfriends: cutting a feature instead of patching around it
 
-**[Source](https://github.com/humbertowgw-maker/friendlyfriends) · [Back to profile](../README.md)**
+**[Source](https://github.com/humbertowgw-maker/friendlyfriends) · [Architecture case study](./friendlyfriends-architecture.md) · [Back to profile](../README.md)**
 
 friendlyfriends does two unrelated jobs in one codebase: it's an AI-provider
 cost and rate-limit dashboard (tracking usage across OpenAI, Anthropic,
