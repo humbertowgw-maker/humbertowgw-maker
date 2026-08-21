@@ -176,6 +176,45 @@ An AI-provider cost/routing dashboard bolted onto a from-scratch animated-episod
 <sub>Node.js · React · SQLite (WASM) · free-tier media pipeline</sub><br/>
 <a href="https://github.com/humbertowgw-maker/friendlyfriends">Public repository</a> · <a href="case-studies/friendlyfriends.md">Case study</a> · <a href="case-studies/friendlyfriends-architecture.md">Architecture →</a>
 </td>
+<td width="33%" valign="top">
+<br/>
+<b>🛡️ Aegis</b><br/>
+Tiered glucose-monitoring platform for diabetic dogs, built by integrating proven medical hardware instead of inventing a new biosensor — four tiers from free manual logging to full continuous monitoring, 54 automated tests.<br/>
+<sub>FastAPI · SQLite · ESP-IDF/BLE · Swift/iOS</sub><br/>
+<a href="https://aegis.whitegwireless.com">Live demo →</a> · <a href="https://github.com/humbertowgw-maker/canine-cgm-bridge">Public repository</a>
+</td>
+</tr>
+<tr>
+<td width="33%" valign="top">
+<br/>
+<b>Screenshot Analyzer</b><br/>
+Turns screenshots into organized, researched product ideas, with a Face ID-gated vault for anything sensitive.<br/>
+<sub>Web + mobile · DuckDuckGo-grounded research</sub><br/>
+<a href="https://screenshot-analyzer-iota.vercel.app">Live demo →</a>
+</td>
+<td width="33%" valign="top">
+<br/>
+<b>Sales Trainer</b><br/>
+AI-powered telecom sales training simulator with a shared live leaderboard.<br/>
+<sub>React · AI role-play simulator</sub><br/>
+<a href="https://sales-trainer-henna.vercel.app">Live demo →</a>
+</td>
+<td width="33%" valign="top">
+<br/>
+<b>Premium Scanner</b><br/>
+Options-trading platform that scans live option chains for high-IV premium-selling setups and can route qualifying signals to a real broker through a multi-stage risk-approval pipeline.<br/>
+<sub>Node/Express · WebSocket · React/Vite</sub><br/>
+<a href="https://client-six-sigma-13.vercel.app">Live demo →</a>
+</td>
+</tr>
+<tr>
+<td width="33%" valign="top">
+<br/>
+<b>White Glove Social</b><br/>
+AI-assisted social content workflow: Claude vision tagging, AI-suggested captions, share-sheet-assisted posting — no OAuth app-review wait required to start using it.<br/>
+<sub>Expo Router · Express · Claude vision</sub><br/>
+<sub><i>Private repository, no public demo</i></sub>
+</td>
 </tr>
 </table>
 
