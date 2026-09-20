@@ -124,11 +124,11 @@ _Private and self-hosted by design — no public demo, which is the point: it's 
 <table>
 <tr>
 <td width="33%" valign="top">
-<img src="screenshots/spendsense.png" width="100%" alt="SpendSense — founder spend intelligence dashboard" /><br/>
+<img src="walkthroughs/spendsense.gif" width="100%" alt="SpendSense walkthrough — CEO overview, health check benchmarks, and 24-month cash forecast" /><br/>
 <b>SpendSense</b><br/>
 Runway, burn, and unit-economics benchmarking for founders, live against 6 industries.<br/>
 <sub>React · Stripe-style metrics UI</sub><br/>
-<a href="https://spendsense-seven.vercel.app">Live demo →</a>
+<a href="https://spendsense-seven.vercel.app">Live demo →</a> · <a href="https://github.com/humbertowgw-maker/spendsense/blob/main/docs/HOW_TO_USE.md">How to use it →</a>
 </td>
 <td width="33%" valign="top">
 <img src="walkthroughs/trucktracker.gif" width="100%" alt="TruckTracker walkthrough — searching by ZIP code and filtering food trucks, restaurants, and landmarks" /><br/>
