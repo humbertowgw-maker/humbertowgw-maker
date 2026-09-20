@@ -195,10 +195,11 @@ Turns screenshots into organized, researched product ideas, with a Face ID-gated
 </td>
 <td width="33%" valign="top">
 <br/>
+<img src="walkthroughs/sales-trainer.gif" width="100%" alt="Sales Trainer walkthrough — setting up a scenario, roleplaying a call with AI co-pilot suggestions, and reviewing the scored performance report" /><br/>
 <b>Sales Trainer</b><br/>
 AI-powered telecom sales training simulator with a shared live leaderboard.<br/>
 <sub>React · AI role-play simulator</sub><br/>
-<a href="https://sales-trainer-henna.vercel.app">Live demo →</a>
+<a href="https://sales-trainer-henna.vercel.app">Live demo →</a> · <a href="https://github.com/humbertowgw-maker/white-glove-frontend/blob/main/apps/sales-trainer/docs/HOW_TO_USE.md">How to use it →</a>
 </td>
 <td width="33%" valign="top">
 <br/>
