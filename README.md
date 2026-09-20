@@ -91,12 +91,12 @@ A two-sided workflow where drivers research vehicle problems and repair shops ve
 - Shop-side quoting, job management, and customer messaging
 - Bilingual interface (English/Spanish)
 
-**[Live demo](https://repairscout-smoky.vercel.app) · [Public repository](https://github.com/humbertowgw-maker/repairscout)**
+**[Live demo](https://repairscout-smoky.vercel.app) · [Public repository](https://github.com/humbertowgw-maker/repairscout) · [How to use it](https://github.com/humbertowgw-maker/repairscout/blob/main/docs/HOW_TO_USE.md)**
 
 </td>
 <td width="45%">
 
-<img src="screenshots/repairscout.png" width="100%" alt="RepairScout landing page — know your car, trust your shop" />
+<img src="walkthroughs/repairscout.gif" width="100%" alt="RepairScout walkthrough — the driver diagnosis intake form and the shop's quote-request dashboard" />
 
 </td>
 </tr>
