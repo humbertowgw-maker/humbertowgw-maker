@@ -187,10 +187,11 @@ Tiered glucose-monitoring platform for diabetic dogs, built by integrating prove
 <tr>
 <td width="33%" valign="top">
 <br/>
+<img src="walkthroughs/screenshot-analyzer-landing.gif" width="100%" alt="Screenshot Analyzer landing page" /><br/>
 <b>Screenshot Analyzer</b><br/>
 Turns screenshots into organized, researched product ideas, with a Face ID-gated vault for anything sensitive.<br/>
 <sub>Web + mobile · DuckDuckGo-grounded research</sub><br/>
-<a href="https://screenshot-analyzer-iota.vercel.app">Live demo →</a>
+<a href="https://screenshots.whitegwireless.com">Live demo →</a> · <a href="https://github.com/humbertowgw-maker/screenshot-analyzer/blob/main/docs/HOW_TO_USE.md">How to use it →</a>
 </td>
 <td width="33%" valign="top">
 <br/>
