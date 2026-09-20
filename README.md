@@ -131,11 +131,11 @@ Runway, burn, and unit-economics benchmarking for founders, live against 6 indus
 <a href="https://spendsense-seven.vercel.app">Live demo →</a>
 </td>
 <td width="33%" valign="top">
-<img src="screenshots/trucktracker.png" width="100%" alt="TruckTracker — live food truck discovery map" /><br/>
+<img src="walkthroughs/trucktracker.gif" width="100%" alt="TruckTracker walkthrough — searching by ZIP code and filtering food trucks, restaurants, and landmarks" /><br/>
 <b>TruckTracker</b><br/>
 Live food-truck discovery: real-time GPS, verified visits, community ratings, no paid rankings.<br/>
 <sub>React · maps · real-time data</sub><br/>
-<a href="https://trucktracker-eight.vercel.app">Live demo →</a>
+<a href="https://trucktracker-eight.vercel.app">Live demo →</a> · <a href="https://github.com/humbertowgw-maker/trucktracker/blob/main/docs/HOW_TO_USE.md">How to use it →</a>
 </td>
 <td width="33%" valign="top">
 <img src="screenshots/poopsense.png" width="100%" alt="PoopSense — AI-assisted pet stool screening" /><br/>
