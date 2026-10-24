@@ -15,11 +15,44 @@ I build AI-enabled products from the first workflow sketch through the API, data
 - **A problem-solver first.** The projects below span sales ops, automotive, personal finance, pet health, hardware security, local discovery, and media production — different domains each time, same approach: learn the real workflow, then build for it.
 - **Full ownership, not just a slice.** Every project here was built end to end by one person — firmware, backend, database, UI, deployment, and the operational plumbing (backups, audit logs, self-host paths) that most portfolios skip because it doesn't demo well.
 - **Integrity over polish.** Projects are labeled by their actual development stage below, not their best possible pitch — see the portfolio status note. I'd rather a recruiter know exactly what's finished and what isn't than oversell either way.
+- **Local-first AI on hardware I already own.** My AI work runs on a home fleet of old and new machines instead of paid cloud inference — older laptops stay useful by doing the jobs they are measurably good at.
 - **Hard work compounds.** Shipping across this many domains, this deep into each stack, isn't a shortcut — it's a lot of hours spent actually finishing things, including the unglamorous parts.
 
 > **Portfolio status:** The public projects below are first or early public versions. They demonstrate implemented work, but they remain in active development and should not be interpreted as finished products.
 
 ## Featured work
+
+<table>
+<tr>
+<td width="100%" valign="top">
+
+### 🐝 Meshive (MeshMachine) — run your own compute fleet
+**Local-first control plane for a mixed computer fleet**
+
+Meshive turns whatever computers you have — new Macs, a 2012 MacBook Pro, a Dell, a Chromebox — into one fleet that runs real work: local AI models, coding jobs, transcodes, test runs. It is the infrastructure underneath my other projects.
+
+`Node.js` `macOS app` `Tailscale` `Ollama` `llama.cpp` `SQLite`
+
+- 9 machines in my own fleet, from current Apple Silicon to decade-old laptops
+- 748 automated tests and CI on every change
+- Shared fleets with invite links and per-member limits, MFA, signed auto-updates
+
+**How the mesh works**
+1. **Discover:** machines find each other on the local network (or over Tailscale) and ask to join the fleet.
+2. **Benchmark:** each new machine is measured automatically: CPU, memory, disk, and how fast it runs local AI models.
+3. **Assign:** jobs go to the machines that measured best for that kind of work, within each machine's memory and disk limits.
+4. **Work:** the machine runs the job locally. Nothing goes to a paid cloud.
+5. **Report:** results, logs, and health flow back to one control plane, which re-routes work if a machine goes offline.
+
+Old machines included: a slow laptop still gets the jobs it is good at, instead of sitting in a drawer.
+
+**[Product site](https://meshmachine.whitegwireless.com) · [Signed releases](https://github.com/humbertowgw-maker/meshmachine-releases)**
+
+_Application code is private._
+
+</td>
+</tr>
+</table>
 
 <table>
 <tr>
@@ -34,6 +67,7 @@ A production-oriented platform for lead management, territory operations, AI-ass
 
 - Multi-tenant authorization, operational dashboards, assignment workflows
 - Audit and compliance controls across the whole workflow
+- **Sales Trainer** built in: AI role-play call simulator with live co-pilot suggestions, scored reports, and a shared leaderboard ([demo](https://sales-trainer-henna.vercel.app))
 - Live product · no login required to see the landing
 
 **[Live product](https://white-glove-frontend.vercel.app) · [Product site](https://whitegwireless.com)**
@@ -109,7 +143,7 @@ A two-sided workflow where drivers research vehicle problems and repair shops ve
 ### 🧠 Personal BrainOS
 **Private local-first AI operating system**
 
-A personalized Jarvis-style system with local inference, durable memory, bounded specialist agents, telecommunications, infrastructure awareness, reminders, self-coding worktrees, and owner approval gates — running on a self-hosted, multi-node homelab rather than a public cloud.
+A personalized Jarvis-style system with local inference, durable memory, bounded specialist agents, telecommunications, infrastructure awareness, reminders, self-coding worktrees, and owner approval gates — running on a self-hosted, multi-node homelab rather than a public cloud. It conducts a 7-machine local AI fleet via MeshMachine; zero cloud inference cost.
 
 `Python` `FastAPI` `React` `Docker Compose` `PostgreSQL` `Qdrant` `Ollama` `Tailscale`
 
@@ -128,14 +162,14 @@ _Private and self-hosted by design — no public demo, which is the point: it's 
 <b>SpendSense</b><br/>
 Runway, burn, and unit-economics benchmarking for founders, live against 6 industries.<br/>
 <sub>React · Stripe-style metrics UI</sub><br/>
-<a href="https://spendsense-seven.vercel.app">Live demo →</a> · <a href="https://github.com/humbertowgw-maker/spendsense/blob/main/docs/HOW_TO_USE.md">How to use it →</a>
+<a href="https://spendsense-seven.vercel.app">Live demo →</a>
 </td>
 <td width="33%" valign="top">
 <img src="walkthroughs/trucktracker.gif" width="100%" alt="TruckTracker walkthrough — searching by ZIP code and filtering food trucks, restaurants, and landmarks" /><br/>
 <b>TruckTracker</b><br/>
 Live food-truck discovery: real-time GPS, verified visits, community ratings, no paid rankings.<br/>
 <sub>React · maps · real-time data</sub><br/>
-<a href="https://trucktracker-eight.vercel.app">Live demo →</a> · <a href="https://github.com/humbertowgw-maker/trucktracker/blob/main/docs/HOW_TO_USE.md">How to use it →</a>
+<a href="https://trucktracker-eight.vercel.app">Live demo →</a>
 </td>
 <td width="33%" valign="top">
 <img src="screenshots/poopsense.png" width="100%" alt="PoopSense — AI-assisted pet stool screening" /><br/>
@@ -191,15 +225,7 @@ Tiered glucose-monitoring platform for diabetic dogs, built by integrating prove
 <b>Screenshot Analyzer</b><br/>
 Turns screenshots into organized, researched product ideas, with a Face ID-gated vault for anything sensitive.<br/>
 <sub>Web + mobile · DuckDuckGo-grounded research</sub><br/>
-<a href="https://screenshots.whitegwireless.com">Live demo →</a> · <a href="https://github.com/humbertowgw-maker/screenshot-analyzer/blob/main/docs/HOW_TO_USE.md">How to use it →</a>
-</td>
-<td width="33%" valign="top">
-<br/>
-<img src="walkthroughs/sales-trainer.gif" width="100%" alt="Sales Trainer walkthrough — setting up a scenario, roleplaying a call with AI co-pilot suggestions, and reviewing the scored performance report" /><br/>
-<b>Sales Trainer</b><br/>
-AI-powered telecom sales training simulator with a shared live leaderboard.<br/>
-<sub>React · AI role-play simulator</sub><br/>
-<a href="https://sales-trainer-henna.vercel.app">Live demo →</a> · <a href="https://github.com/humbertowgw-maker/white-glove-frontend/blob/main/apps/sales-trainer/docs/HOW_TO_USE.md">How to use it →</a>
+<a href="https://screenshots.whitegwireless.com">Live demo →</a>
 </td>
 <td width="33%" valign="top">
 <br/>
@@ -215,6 +241,13 @@ Options-trading platform that scans live option chains for high-IV premium-selli
 <b>White Glove Social</b><br/>
 AI-assisted social content workflow: Claude vision tagging, AI-suggested captions, share-sheet-assisted posting — no OAuth app-review wait required to start using it.<br/>
 <sub>Expo Router · Express · Claude vision</sub><br/>
+<sub><i>Private repository, no public demo</i></sub>
+</td>
+<td width="33%" valign="top">
+<br/>
+<b>CodeLingo</b><br/>
+A kid-friendly, Duolingo-style game for learning to code: Python and JavaScript quizzes, arrange-the-code puzzles, a skill tree, tiers, and collectible pets and mascots. Built overnight by a local coding agent on my own fleet.<br/>
+<sub>HTML/JS · local AI build agent</sub><br/>
 <sub><i>Private repository, no public demo</i></sub>
 </td>
 </tr>
